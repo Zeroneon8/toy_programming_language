@@ -1,0 +1,8 @@
+-- Programa de ejemplo en Toy
+func main()
+  local x
+  x := 10
+  if x >= 5 and true then
+    println("x es mayor o igual a 5")
+  end
+end

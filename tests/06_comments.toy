@@ -1,0 +1,5 @@
+-- comentario completo
+local x -- comentario al final
+x := 1
+-- otro comentario
+print x

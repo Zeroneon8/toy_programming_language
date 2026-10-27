@@ -1,0 +1,7 @@
+Token: TOK_LOCAL "local"
+Token: TOK_ID "x"
+Token: TOK_ID "x"
+Token: TOK_ASSIGN ":="
+Token: TOK_NUMBER "1"
+Token: TOK_PRINT "print"
+Token: TOK_ID "x"
