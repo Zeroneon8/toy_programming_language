@@ -1,0 +1,2 @@
+*.toy text eol=lf
+*.expected.txt text eol=lf

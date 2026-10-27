@@ -1,0 +1,11 @@
+-- Expresiones con todos los niveles de precedencia
+number a := 2 + 4 * 3
+number b := 3 * (2 + 4)
+number c := 17 - -3
+number d := 4 + -3 ^ 2
+number e := 2 ^ 3 ^ 2
+number f := 10 % 3 * 2
+bool g := 1 > 2
+bool h := ~(a >= b) and c ~= d or e == f
+bool k := ~~true
+string s := "a" + 'b'

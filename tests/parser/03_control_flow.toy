@@ -1,0 +1,17 @@
+-- if/else, while y for anidados, ret sin valor
+func revisar(number x, bool activo)
+  if x > 10 and activo then
+    println "mayor"
+  else
+    while x <= 10 do
+      x := x + 1
+    end
+  end
+  ret
+end
+
+for number i := 1, 3 do
+  if i % 2 == 0 then
+    revisar(i, true)
+  end
+end
