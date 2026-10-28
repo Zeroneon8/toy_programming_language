@@ -1,1 +1,24 @@
+=== ANÁLISIS LÉXICO ===
+Token: TOK_FUNC "func"
+Token: TOK_ID "main"
+Token: TOK_LPAR "("
+Token: TOK_RPAR ")"
+Token: TOK_FOR "for"
+Token: TOK_VNUMBER "number"
+Token: TOK_ID "i"
+Token: TOK_ASSIGN ":="
+Token: TOK_NUMBER "1"
+Token: TOK_COMMA ","
+Token: TOK_NUMBER "2"
+Token: TOK_DO "do"
+Token: TOK_FUNC "func"
+Token: TOK_ID "inner"
+Token: TOK_LPAR "("
+Token: TOK_RPAR ")"
+Token: TOK_END "end"
+Token: TOK_END "end"
+Token: TOK_END "end"
+Análisis léxico exitoso: 19 tokens obtenidos.
+
+=== ANÁLISIS SINTÁCTICO ===
 Error sintactico: las funciones solo se pueden declarar en el ambito global (no anidadas ni dentro de bloques), pero se encontro 'func' (token 13)

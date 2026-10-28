@@ -1,1 +1,9 @@
+=== ANÁLISIS LÉXICO ===
+Token: TOK_FUNC "func"
+Token: TOK_ID "main"
+Token: TOK_LPAR "("
+Token: TOK_RPAR ")"
+Análisis léxico exitoso: 4 tokens obtenidos.
+
+=== ANÁLISIS SINTÁCTICO ===
 Error sintactico: se esperaba 'end' para cerrar la funcion, pero se encontro el final del archivo

@@ -1,1 +1,12 @@
+=== ANÁLISIS LÉXICO ===
+Token: TOK_FUNC "func"
+Token: TOK_ID "main"
+Token: TOK_LPAR "("
+Token: TOK_RPAR ")"
+Token: TOK_PLUS "+"
+Token: TOK_NUMBER "5"
+Token: TOK_END "end"
+Análisis léxico exitoso: 7 tokens obtenidos.
+
+=== ANÁLISIS SINTÁCTICO ===
 Error sintactico: se esperaba 'end' para cerrar la funcion, pero se encontro '+' (token 5)

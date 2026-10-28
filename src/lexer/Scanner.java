@@ -32,6 +32,7 @@ public class Scanner {
     private final char[] buffer;
     private Map<String, TokenType> reservedWords;
     private Map<String, TokenType> specialSymbols;
+    private ArrayList<String> lastLexemas;
 
     public Scanner(char[] buffer) {
         this.buffer = buffer;
@@ -64,6 +65,7 @@ public class Scanner {
         Automaton automaton = new Automaton();
         StringBuilder lexema = new StringBuilder();
         ArrayList<String> lexemas = new ArrayList<>();
+        this.lastLexemas = lexemas;
 
         int i = 0;
         int lexemaStart = 0;
@@ -85,6 +87,7 @@ public class Scanner {
                 // Si el estado actual no es de aceptación, el lexema quedó
                 // incompleto: número mal formado, cadena sin cerrar, etc.
                 if (!automaton.isAcceptance(status)) {
+                    this.lastLexemas = new ArrayList<>(lexemas);
                     throw new IllegalArgumentException(describeError(status, c, i, lexemaStart));
                 }
 
@@ -105,12 +108,17 @@ public class Scanner {
 
         if (status != Status.START) {
             if (!automaton.isAcceptance(status)) {
+                this.lastLexemas = new ArrayList<>(lexemas);
                 throw new IllegalArgumentException(describeEofError(status, lexemaStart));
             }
             addLexema(lexemas, lexema);
         }
 
         return lexemas;
+    }
+
+    public ArrayList<String> getLastLexemas() {
+        return lastLexemas != null ? lastLexemas : new ArrayList<>();
     }
 
     /**

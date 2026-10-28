@@ -1,1 +1,6 @@
-Error: Caracter no reconocido '@' en la posicion 7
+=== ANÁLISIS LÉXICO ===
+Tokens obtenidos hasta el error:
+Token: TOK_ID "x"
+Token: TOK_ASSIGN ":="
+Token: TOK_NUMBER "1"
+Error lexico: Caracter no reconocido '@' en la posicion 7

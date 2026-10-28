@@ -1,1 +1,7 @@
+=== ANÁLISIS LÉXICO ===
+Token: TOK_RET "ret"
+Token: TOK_NUMBER "42"
+Análisis léxico exitoso: 2 tokens obtenidos.
+
+=== ANÁLISIS SINTÁCTICO ===
 Error sintactico: 'ret' solo se puede usar dentro de un bloque, pero se encontro 'ret' (token 1)

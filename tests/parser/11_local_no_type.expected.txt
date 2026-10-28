@@ -1,1 +1,14 @@
+=== ANÁLISIS LÉXICO ===
+Token: TOK_FUNC "func"
+Token: TOK_ID "main"
+Token: TOK_LPAR "("
+Token: TOK_RPAR ")"
+Token: TOK_LOCAL "local"
+Token: TOK_ID "x"
+Token: TOK_ASSIGN ":="
+Token: TOK_NUMBER "1"
+Token: TOK_END "end"
+Análisis léxico exitoso: 9 tokens obtenidos.
+
+=== ANÁLISIS SINTÁCTICO ===
 Error sintactico: se esperaba un tipo (number, string o bool), pero se encontro 'x' (token 6)

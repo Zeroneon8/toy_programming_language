@@ -1,1 +1,10 @@
+=== ANÁLISIS LÉXICO ===
+Token: TOK_LOCAL "local"
+Token: TOK_VNUMBER "number"
+Token: TOK_ID "x"
+Token: TOK_ASSIGN ":="
+Token: TOK_NUMBER "5"
+Análisis léxico exitoso: 5 tokens obtenidos.
+
+=== ANÁLISIS SINTÁCTICO ===
 Error sintactico: 'local' solo se puede usar dentro de un bloque (if/while/for/func), pero se encontro 'local' (token 1)

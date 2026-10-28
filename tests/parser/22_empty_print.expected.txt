@@ -1,1 +1,11 @@
+=== ANÁLISIS LÉXICO ===
+Token: TOK_FUNC "func"
+Token: TOK_ID "main"
+Token: TOK_LPAR "("
+Token: TOK_RPAR ")"
+Token: TOK_PRINT "print"
+Token: TOK_END "end"
+Análisis léxico exitoso: 6 tokens obtenidos.
+
+=== ANÁLISIS SINTÁCTICO ===
 Error sintactico: se esperaba una expresion, pero se encontro 'end' (token 6)

@@ -1,1 +1,5 @@
-Error: Se esperaban digitos despues del signo del exponente del numero iniciado en la posicion 5
+=== ANÁLISIS LÉXICO ===
+Tokens obtenidos hasta el error:
+Token: TOK_ID "x"
+Token: TOK_ASSIGN ":="
+Error lexico: Se esperaban digitos despues del signo del exponente del numero iniciado en la posicion 5

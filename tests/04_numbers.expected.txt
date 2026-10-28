@@ -1,3 +1,4 @@
+=== ANÁLISIS LÉXICO ===
 Token: TOK_NUMBER "0"
 Token: TOK_NUMBER "123"
 Token: TOK_NUMBER "3.14"
@@ -5,3 +6,4 @@ Token: TOK_NUMBER "2.0"
 Token: TOK_NUMBER "1e10"
 Token: TOK_NUMBER "1E+5"
 Token: TOK_NUMBER "2.5e-3"
+Análisis léxico exitoso: 7 tokens obtenidos.

@@ -1,1 +1,15 @@
+=== ANÁLISIS LÉXICO ===
+Token: TOK_FUNC "func"
+Token: TOK_ID "main"
+Token: TOK_LPAR "("
+Token: TOK_RPAR ")"
+Token: TOK_WHILE "while"
+Token: TOK_TRUE "true"
+Token: TOK_DO "do"
+Token: TOK_PRINT "print"
+Token: TOK_NUMBER "1"
+Token: TOK_END "end"
+Análisis léxico exitoso: 10 tokens obtenidos.
+
+=== ANÁLISIS SINTÁCTICO ===
 Error sintactico: se esperaba 'end' para cerrar la funcion, pero se encontro el final del archivo

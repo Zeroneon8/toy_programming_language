@@ -1,1 +1,19 @@
+=== ANÁLISIS LÉXICO ===
+Token: TOK_FUNC "func"
+Token: TOK_ID "main"
+Token: TOK_LPAR "("
+Token: TOK_RPAR ")"
+Token: TOK_WHILE "while"
+Token: TOK_TRUE "true"
+Token: TOK_DO "do"
+Token: TOK_FUNC "func"
+Token: TOK_ID "inner"
+Token: TOK_LPAR "("
+Token: TOK_RPAR ")"
+Token: TOK_END "end"
+Token: TOK_END "end"
+Token: TOK_END "end"
+Análisis léxico exitoso: 14 tokens obtenidos.
+
+=== ANÁLISIS SINTÁCTICO ===
 Error sintactico: las funciones solo se pueden declarar en el ambito global (no anidadas ni dentro de bloques), pero se encontro 'func' (token 8)

@@ -1,1 +1,4 @@
-Error: Se esperaba '=' para completar el operador iniciado en la posicion 2
+=== ANÁLISIS LÉXICO ===
+Tokens obtenidos hasta el error:
+Token: TOK_ID "x"
+Error lexico: Se esperaba '=' para completar el operador iniciado en la posicion 2

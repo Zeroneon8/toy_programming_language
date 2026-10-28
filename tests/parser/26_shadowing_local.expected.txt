@@ -1,1 +1,27 @@
-Analisis sintactico exitoso: el programa es valido.
+=== ANÁLISIS LÉXICO ===
+Token: TOK_FUNC "func"
+Token: TOK_ID "main"
+Token: TOK_LPAR "("
+Token: TOK_RPAR ")"
+Token: TOK_VNUMBER "number"
+Token: TOK_ID "x"
+Token: TOK_ASSIGN ":="
+Token: TOK_NUMBER "1"
+Token: TOK_IF "if"
+Token: TOK_TRUE "true"
+Token: TOK_THEN "then"
+Token: TOK_LOCAL "local"
+Token: TOK_VNUMBER "number"
+Token: TOK_ID "x"
+Token: TOK_ASSIGN ":="
+Token: TOK_NUMBER "999"
+Token: TOK_PRINT "print"
+Token: TOK_ID "x"
+Token: TOK_END "end"
+Token: TOK_PRINT "print"
+Token: TOK_ID "x"
+Token: TOK_END "end"
+Análisis léxico exitoso: 22 tokens obtenidos.
+
+=== ANÁLISIS SINTÁCTICO ===
+Análisis sintáctico exitoso: el programa es valido.

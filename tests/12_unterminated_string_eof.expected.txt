@@ -1,1 +1,4 @@
-Error: Cadena sin cerrar hasta el final del archivo (la cadena inicia en la posicion 6).
+=== ANÁLISIS LÉXICO ===
+Tokens obtenidos hasta el error:
+Token: TOK_PRINT "print"
+Error lexico: Cadena sin cerrar hasta el final del archivo (la cadena inicia en la posicion 6).

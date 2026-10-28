@@ -1,3 +1,4 @@
+=== ANÁLISIS LÉXICO ===
 Token: TOK_IF "if"
 Token: TOK_THEN "then"
 Token: TOK_ELSE "else"
@@ -17,3 +18,4 @@ Token: TOK_RET "ret"
 Token: TOK_VNUMBER "number"
 Token: TOK_VSTRING "string"
 Token: TOK_BOOL "bool"
+Análisis léxico exitoso: 19 tokens obtenidos.

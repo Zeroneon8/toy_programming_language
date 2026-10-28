@@ -1,1 +1,4 @@
-Error: Cadena sin cerrar: se encontro un salto de linea en la posicion 12 (la cadena inicia en la posicion 6)
+=== ANÁLISIS LÉXICO ===
+Tokens obtenidos hasta el error:
+Token: TOK_PRINT "print"
+Error lexico: Cadena sin cerrar: se encontro un salto de linea en la posicion 12 (la cadena inicia en la posicion 6)
