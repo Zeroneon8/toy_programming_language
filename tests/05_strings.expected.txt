@@ -1,0 +1,5 @@
+Token: TOK_STRING ""hola mundo""
+Token: TOK_STRING "'it is'"
+Token: TOK_STRING ""a'b""
+Token: TOK_STRING "'a"b'"
+Token: TOK_STRING """"

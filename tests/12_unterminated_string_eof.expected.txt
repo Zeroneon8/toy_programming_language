@@ -1,0 +1,1 @@
+Error: Cadena sin cerrar hasta el final del archivo (la cadena inicia en la posicion 6).

@@ -1,0 +1,1 @@
+Error: Se esperaban digitos despues del signo del exponente del numero iniciado en la posicion 5
