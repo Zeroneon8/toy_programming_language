@@ -1,0 +1,2 @@
+-- ret en ambito global (debe fallar)
+ret 42

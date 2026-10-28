@@ -1,0 +1,7 @@
+-- func dentro de if (debe fallar)
+func main()
+  if true then
+    func inner()
+    end
+  end
+end

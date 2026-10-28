@@ -1,0 +1,5 @@
+-- falta end del if (y del func)
+func main()
+  if true then
+    print 1
+  end

@@ -1,0 +1,6 @@
+-- for sin tipo en variable (debe fallar)
+func main()
+  for i := 1, 10 do
+    print i
+  end
+end

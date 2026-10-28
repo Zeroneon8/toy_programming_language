@@ -1,0 +1,1 @@
+Error sintactico: se esperaba 'then', pero se encontro 'print' (token 7)

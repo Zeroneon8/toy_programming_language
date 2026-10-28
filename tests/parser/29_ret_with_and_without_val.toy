@@ -1,0 +1,7 @@
+-- ret con y sin valor en la misma funcion (debe aceptar)
+func f()
+  if true then
+    ret 42
+  end
+  ret
+end

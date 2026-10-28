@@ -1,0 +1,7 @@
+-- func dentro de for (debe fallar)
+func main()
+  for number i := 1, 2 do
+    func inner()
+    end
+  end
+end

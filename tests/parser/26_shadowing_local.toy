@@ -1,0 +1,9 @@
+-- shadowing con local (debe aceptar)
+func main()
+  number x := 1
+  if true then
+    local number x := 999
+    print x
+  end
+  print x
+end

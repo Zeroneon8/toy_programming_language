@@ -1,0 +1,4 @@
+-- operador inicia sentencia (debe fallar)
+func main()
+  + 5
+end

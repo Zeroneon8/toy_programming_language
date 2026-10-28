@@ -1,0 +1,1 @@
+Error sintactico: se esperaba 'do', pero se encontro 'print' (token 12)

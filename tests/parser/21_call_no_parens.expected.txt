@@ -1,0 +1,1 @@
+Error sintactico: se esperaba ':=' o '(' despues del identificador, pero se encontro '5' (token 6)

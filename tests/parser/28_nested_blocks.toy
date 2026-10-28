@@ -1,0 +1,12 @@
+-- anidacion profunda de bloques (debe aceptar)
+func main()
+  if true then
+    while true do
+      for number i := 1, 2 do
+        if i > 0 then
+          print i
+        end
+      end
+    end
+  end
+end

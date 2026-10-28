@@ -1,0 +1,6 @@
+-- while sin do (debe fallar)
+func main()
+  while true
+    print 1
+  end
+end

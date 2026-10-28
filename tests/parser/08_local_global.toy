@@ -1,0 +1,2 @@
+-- local en ambito global (debe fallar)
+local number x := 5

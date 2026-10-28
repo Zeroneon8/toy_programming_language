@@ -1,0 +1,4 @@
+-- asociatividad derecha de exponente (debe aceptar)
+func main()
+  number r := 2 ^ 3 ^ 2
+end

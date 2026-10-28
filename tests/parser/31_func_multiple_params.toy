@@ -1,0 +1,4 @@
+-- funcion con multiples parametros (debe aceptar)
+func f(number a, string b, bool c)
+  print a
+end

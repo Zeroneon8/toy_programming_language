@@ -1,0 +1,1 @@
+Error sintactico: se esperaba 'end' para cerrar la funcion, pero se encontro '5' (token 5)

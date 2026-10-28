@@ -1,0 +1,4 @@
+-- funcion sin parametros (debe aceptar)
+func f()
+  print 1
+end

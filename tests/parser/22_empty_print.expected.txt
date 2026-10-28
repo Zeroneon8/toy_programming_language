@@ -1,0 +1,1 @@
+Error sintactico: se esperaba una expresion, pero se encontro 'end' (token 6)

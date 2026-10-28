@@ -1,0 +1,6 @@
+-- else sin if (debe fallar)
+func main()
+  else
+    print 1
+  end
+end

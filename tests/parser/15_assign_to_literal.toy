@@ -1,0 +1,4 @@
+-- asignacion a literal (debe fallar)
+func main()
+  5 := 10
+end

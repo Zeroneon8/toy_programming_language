@@ -1,0 +1,6 @@
+-- for sin do (debe fallar)
+func main()
+  for number i := 1, 10
+    print i
+  end
+end

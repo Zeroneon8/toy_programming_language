@@ -1,0 +1,4 @@
+-- print sin expresion (debe fallar)
+func main()
+  print
+end

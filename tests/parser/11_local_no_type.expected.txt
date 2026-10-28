@@ -1,0 +1,1 @@
+Error sintactico: se esperaba un tipo (number, string o bool), pero se encontro 'x' (token 6)

@@ -1,0 +1,8 @@
+-- for con scope de variable (debe aceptar)
+func main()
+  number i := 999
+  for number i := 1, 3 do
+    print i
+  end
+  print i
+end

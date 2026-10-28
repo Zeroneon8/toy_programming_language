@@ -1,0 +1,4 @@
+-- local sin tipo (debe fallar)
+func main()
+  local x := 1
+end

@@ -1,0 +1,5 @@
+-- falta end del for (y del func)
+func main()
+  for number i := 1, 10 do
+    print i
+  end

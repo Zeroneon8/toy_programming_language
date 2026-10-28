@@ -1,1 +1,1 @@
-Error: Cadena sin cerrar: se encontro un salto de linea en la posicion 11 (la cadena inicia en la posicion 6)
+Error: Cadena sin cerrar: se encontro un salto de linea en la posicion 12 (la cadena inicia en la posicion 6)

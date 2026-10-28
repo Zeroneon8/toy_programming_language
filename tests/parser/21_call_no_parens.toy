@@ -1,0 +1,11 @@
+-- llamada a funcion sin parentesis (debe fallar)
+func main()
+  factorial 5
+end
+
+func factorial(number n)
+  if n == 1 then
+    ret 1
+  end
+  ret n * factorial(n - 1)
+end

@@ -1,0 +1,1 @@
+Error sintactico: 'local' solo se puede usar dentro de un bloque (if/while/for/func), pero se encontro 'local' (token 1)

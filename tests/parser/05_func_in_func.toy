@@ -1,0 +1,5 @@
+-- func dentro de func (debe fallar)
+func outer()
+  func inner()
+  end
+end

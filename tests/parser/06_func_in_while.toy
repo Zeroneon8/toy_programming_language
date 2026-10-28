@@ -1,0 +1,7 @@
+-- func dentro de while (debe fallar)
+func main()
+  while true do
+    func inner()
+    end
+  end
+end
